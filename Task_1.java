@@ -23,7 +23,9 @@ public class Task_1 {
             } catch (NumberFormatException e) {
                 System.out.println("Неверный формат числа. Пожалуйста, введите дробное число.");
             }
+            
         }
+        scanner.close();
         
         return value;
         
